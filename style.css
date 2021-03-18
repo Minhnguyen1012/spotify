@@ -1,5 +1,6 @@
 body {
   font-family: "Cabin", sans-serif;
+  width: 100vw;
 }
 
 .container {
@@ -172,7 +173,7 @@ nav a {
 .container3 .row1 {
   display: flex;
 
-  width: 1200px;
+  width: 1000px;
   flex-direction: row;
   justify-content: space-around;
 }
@@ -206,6 +207,13 @@ nav a {
 }
 .footer-right {
   margin-right: 10px;
+}
+.footer-right img:hover {
+  background-color: #1ed760;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  padding: 1em;
 }
 .logo-mini {
   margin-right: 50px;
